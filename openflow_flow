@@ -1,0 +1,4 @@
+in_port(2),eth(src=bc:30:5b:f6:dd:fc,dst=bc:30:5b:f7:07:fc),eth_type(0x0800),ipv4(src=193.170.192.143,dst=193.170.192.142,proto=6,tos=0,ttl=64,frag=no),tcp(src=45969,dst=5672), packets:1, bytes:87, used:4.040s, flags:P., actions:1
+in_port(2),eth(src=bc:30:5b:f6:dd:fc,dst=bc:30:5b:f7:07:fc),eth_type(0x0800),ipv4(src=193.170.192.143,dst=193.170.192.142,proto=6,tos=0,ttl=64,frag=no),tcp(src=45992,dst=5672), packets:118412, bytes:21787661, used:2.168s, flags:P., actions:1
+in_port(2),eth(src=00:18:6e:3a:aa:e8,dst=01:80:c2:00:00:00), packets:29131, bytes:1864384, used:1.200s, actions:drop
+in_port(2),eth(src=00:26:55:e8:b0:43,dst=bc:30:5b:f7:07:fc),eth_type(0x0806),arp(sip=193.170.192.129,tip=193.170.192.142,op=2,sha=00:26:55:e8:b0:43,tha=bc:30:5b:f7:07:fc), packets:0, bytes:0, used:never, actions:1
